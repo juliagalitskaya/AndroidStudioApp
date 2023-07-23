@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/details_background">
+
+
+    <!-- Добавьте другие элементы пользовательского интерфейса для отображения деталей бронирования -->
+    <TextView
+        android:id="@+id/tvPassengerName"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="Inter"
+        android:textColor="@color/white"
+        android:textSize="48px"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvRoute"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="-138dp"
+        android:textColor="@color/white"
+        android:textSize="75px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="2dp"
+        android:alpha="0.75"
+        android:textColor="@color/white"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDeparture"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:alpha="0" />
+
+    <TextView
+        android:id="@+id/tvDestination"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:alpha="0" />
+
+    <TextView
+        android:id="@+id/tvTicketType"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="146dp"
+        android:fontFamily="Inter"
+        android:textColor="@color/white"
+        android:textSize="48px"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="320dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="234dp"
+        android:backgroundTint="#B5E77E"
+        android:text="Download Ticket"
+        android:textColor="#555D4F"
+        android:textSize="48px"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnBackAdditional"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="-696dp"
+        android:backgroundTint="#7563F6"
+        android:alpha="0"
+        android:text=""
+        android:textColor="#555D4F"
+        android:textSize="60px"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

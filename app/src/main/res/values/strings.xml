@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">fly</string>
+    <string name="select_ticket_type">Select a ticket type</string>
+</resources>

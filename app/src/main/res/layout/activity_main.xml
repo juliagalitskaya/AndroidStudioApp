@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:foregroundTint="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etPassengerName"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="177dp"
+        android:fontFamily="Inter"
+        android:hint="Enter your name"
+        android:textColor="@color/white"
+        android:textColorHint="#4E4F54"
+        android:textSize="48px"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/etDeparture"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="Inter"
+        android:hint="Enter the place of departure"
+        android:textColor="@color/white"
+        android:textColorHint="#4E4F54"
+        android:textSize="48px"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/etDestination"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="Inter"
+        android:hint="Enter your destination"
+        android:textColor="@color/white"
+        android:textColorHint="#4E4F54"
+        android:textSize="48px"
+        android:textStyle="normal" />
+
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="21dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:fontFamily="Inter"
+        android:hint="Select a date"
+        android:textColor="@color/white"
+        android:textColorHint="#4E4F54"
+        android:textSize="48px"
+        android:textStyle="normal" />
+
+    <Spinner
+        android:id="@+id/spinnerTicketType"
+        android:layout_width="140dp"
+        android:layout_height="42dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="-40dp"
+        android:backgroundTint="#4E4F54"
+        android:clickable="true"
+        android:entries="@array/ticket_types"
+        android:focusable="false"
+        android:fontFamily="Inter"
+        android:hint="Select a date"
+        android:prompt="@string/select_ticket_type"
+        android:textColor="#FFFFFF"
+        android:textSize="48px"
+        android:textStyle="normal" />
+
+    <ToggleButton
+        android:id="@+id/toggleBaggage"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/toggle_btn_bg"
+        android:text=""
+        android:textOff=""
+        android:textOn="" />
+
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="-22dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#B5E77E"
+        android:visibility="gone"
+        android:layout_gravity="left"
+        android:fontFamily="Inter"
+        android:textSize="48px"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/btnBookTicket"
+        android:text="Buy Ticket"
+        android:layout_width="320dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="19dp"
+        android:backgroundTint="#B5E77E"
+        android:textColor="#555D4F"
+        android:textSize="48px"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
