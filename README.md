@@ -1,7 +1,7 @@
 
 
 <p align="center">
-      <img src="https://i.ibb.co/3BQsfYD/fly.jpg" alt="Project Logo" width="1200">
+      <img src="https://i.ibb.co/JR6w1dw/fly.png" alt="Project Logo" width="1200">
 </p>
 
 ## About
