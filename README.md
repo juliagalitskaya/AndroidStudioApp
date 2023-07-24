@@ -1,7 +1,9 @@
+## Buying Tickets App
 
+An application for easy flight ticket booking
 
 <p align="center">
-      <img src="https://i.ibb.co/JR6w1dw/fly.png" alt="Project Logo" width="1200">
+      <img src="https://i.ibb.co/yh4Bc4Y/24-07-2023-02-06.png" alt="Project Logo" width="1200">
 </p>
 
 ## About
